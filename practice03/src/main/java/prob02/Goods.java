@@ -5,6 +5,12 @@ public class Goods {
 	private int price;
 	private int countStock;
 	
+	Goods(String product, int price, int countStock){
+		this.product = product;
+		this.price = price;
+		this.countStock = countStock;
+	}
+	
 	public String getProduct() {
 		return product;
 	}
@@ -22,6 +28,11 @@ public class Goods {
 	}
 	public void setcountStock(int countStock) {
 		this.countStock = countStock;
+	}
+
+	@Override
+	public String toString() {
+		return product + "(가격: "+ price + "원)(이)가 " + countStock + "개 입고 되었습니다. ";
 	}
 	
 	

@@ -2,9 +2,9 @@ package prob01;
 
 public class Member {
 	
-	private int id;			// 회원 id
+	private int id;			// 회원 아이디 
 	private String name;	// 회원 이름
-	private int point;		// 회원 point
+	private int point;		// 회원 포인트 
 	
 	public int getId() {
 		return id;
