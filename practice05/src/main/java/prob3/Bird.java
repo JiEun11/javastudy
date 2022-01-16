@@ -10,4 +10,12 @@ public abstract class Bird {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public void fly() {
+		
+	}
+	
+	public void sing() {
+		System.out.println(getName()+ "가 소리내어 웁니다.");
+	}
 }
